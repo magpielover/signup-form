@@ -1,0 +1,230 @@
+.App {
+  text-align: center;
+  background-color: #e8e8e8;
+  padding-bottom: 50px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.mb-3,
+.my-3 {
+  margin-bottom: 0px !important;
+}
+.navbar {
+  background-color: #aab5bf !important;
+  padding: 0 !important;
+  height: 96px;
+}
+.navbar a {
+  padding-bottom: 32px !important;
+  padding-top: 32px !important;
+}
+.signup {
+  margin-bottom: 10px;
+}
+.signup .mb-3 {
+  margin-bottom: 0px !important;
+}
+.sortable {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 300px;
+  padding-right: 16px;
+}
+th:nth-child(3),
+td:nth-child(3) {
+  width: 180px;
+}
+.signup th:first-child {
+  padding-left: 16px;
+}
+th:first-child,
+td:first-child {
+  padding-left: 24px;
+  padding-right: 16px;
+  width: 220px;
+}
+th:last-child,
+td:last-child {
+  width: 200px;
+  padding-left: 80px;
+}
+.signup th:last-child,
+.signup td:last-child {
+  width: 200px;
+  padding-left: 90px;
+}
+input {
+  width: 100%;
+}
+th {
+  padding-bottom: 16px;
+  padding-top: 16px;
+
+  font-size: 14px;
+  color: #757575;
+  line-height: 16px;
+  font-weight: 500;
+}
+td {
+  padding-bottom: 24px;
+  padding-top: 24px;
+
+  border-top: 1px solid #ced4da;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #505050;
+}
+table {
+  text-align: left;
+}
+.digia-button {
+  height: 40px;
+  background-color: #e8e8e8 !important;
+  color: #505050 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+.digia-button-save {
+  background-color: #07f;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.digia-button-cancel {
+  background-color: #e8e8e8;
+  color: #07f;
+  font-size: 16px;
+  font-weight: 500;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+input {
+  padding: 6px;
+  background-color: #efefef;
+  border: 0;
+  max-height: 40px;
+  height: 40px;
+  color: #505050;
+}
+.form-control {
+  background-color: #f1f1f1 !important;
+  border-radius: 0 !important;
+}
+.show {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert {
+  position: fixed !important;
+  top: 22px;
+  right: 18px;
+  opacity: 1;
+  animation: fade 2s linear;
+}
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.valid {
+  border: 1px solid #ced4da;
+}
+
+.invalid:focus {
+  color: red !important;
+  background-color: #fff;
+  border-color: red !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25) !important;
+}
+.invalid {
+  color: red !important;
+  background-color: #fff;
+  border-color: red !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25) !important;
+}
+
+.action-button {
+  padding: 20px;
+  opacity: 0.5;
+}
+.editing td,
+.inline-editing {
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.editing td:last-child {
+  width: 200px;
+  padding-left: 26px;
+}
+
+.navbar a {
+  height: 100%;
+  padding: 32px;
+}
+.navbar img {
+  background-color: white;
+  margin-right: 10px;
+}
+.modal-footer {
+  justify-content: center !important;
+}
+.active-sort-field {
+  color: black;
+}
