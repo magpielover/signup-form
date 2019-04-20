@@ -1,6 +1,6 @@
 # User signup
 
-A small signup form and a list of participants. Check out live demo or https://digia-interview.ugurkirbac.fi/.
+A simple frontend-only React app with CRUD capabilities. Check out live demo or https://digia-interview.ugurkirbac.fi/.
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
 
 ## Key Features
